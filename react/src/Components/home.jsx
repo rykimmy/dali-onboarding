@@ -1,11 +1,11 @@
 import React from 'react';
+import Deck from './deck';
 import '../style.scss';
+import exampleInfo from '../assets/information.json';
 
 function Home() {
   return (
-        <div>
-
-        </div>
+    <Deck group={exampleInfo} />
   );
 }
 
